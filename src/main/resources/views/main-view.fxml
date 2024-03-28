@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="homeRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@../stylesheets/home-style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.blacksky.food_paradise.controllers.MainController">
+   <children>
+      <ImageView fitHeight="114.0" fitWidth="103.0" layoutX="338.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/cat_mouths/cat_mouth_3.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="95.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FOOD" wrappingWidth="60.13671875">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="155.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Paradise" wrappingWidth="103.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="95.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="created by blacksky" wrappingWidth="134.13671875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="55.0" fitWidth="60.0" layoutX="22.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/foods/game-icon.png" />
+         </image>
+      </ImageView>
+      <HBox fx:id="firstWrapper" alignment="CENTER" layoutX="677.0" layoutY="112.0" prefHeight="66.0" prefWidth="535.0" spacing="10.0">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/pizza.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="254.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/apple.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="283.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/donut.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="312.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/drink.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="341.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/fried-rice.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="370.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/game-icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="399.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/hamburger.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="428.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/ice-cream.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox fx:id="secondWrapper" alignment="CENTER" layoutX="677.0" layoutY="199.0" prefHeight="66.0" prefWidth="535.0" spacing="10.0">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/jelly.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="254.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/bananas.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="283.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/cake.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="312.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/mango.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="341.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/chocolate.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="370.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/ramen.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="399.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/fried-rice.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="428.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/coffee.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox fx:id="thirdWrapper" alignment="CENTER" layoutX="677.0" layoutY="294.0" prefHeight="66.0" prefWidth="535.0" spacing="10.0">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/juices.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="254.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/lime.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="283.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/water-melon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="312.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/salad.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="341.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/strawberry.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="370.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/turkey.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="399.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/ramen.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" layoutX="428.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/foods/ice-cream.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <Text fill="#ff9900" layoutX="251.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Variety Of Foods Are Provided">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="139.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All of the food icons are gatherd using google and especially saved from www.flaticon.com. The main feature of this game is to keep eating all the foods which are fall from upper of the game layout. The more you eat the more you get more best score and your cute game character &quot;Hummy&quot; will get more satisfied. Faling all the foods simultaneously and increasing the falling speed are the most difficult level of this game. The current version of FOOD Paradise is 1.0  and still in developing stage which is beta version. Developed by blacksky ( Thant Zin Aung). So, give it a try and give it your best." textAlignment="JUSTIFY" wrappingWidth="480.9814453125">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Text fill="#ff9900" layoutX="490.0" layoutY="452.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello From Hummy">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="490.0" layoutY="478.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello! This is Hummy which always getting hungry. Your main mission is to feed this littly poor hungry guy so he get satisfied. Feeding more food this guy makes you to get more score and break your best record." textAlignment="JUSTIFY" wrappingWidth="308.9814453125">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="imageView1" fitHeight="114.0" fitWidth="103.0" layoutX="839.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/cat_mouths/cat_mouth_5.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="startGameButton" layoutX="863.0" layoutY="625.0" mnemonicParsing="false" onMouseClicked="#clickOnStartGameButton" prefHeight="55.0" prefWidth="362.0" styleClass="start-game-button" text="Start Game">
+         <effect>
+            <Reflection fraction="0.59" topOffset="5.0" topOpacity="0.29" />
+         </effect>
+      </Button>
+      <HBox alignment="CENTER_LEFT" layoutX="484.0" layoutY="635.0" prefHeight="47.0" prefWidth="257.0">
+         <children>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+               <image>
+                  <Image url="@../images/others/score.png" />
+               </image>
+            </ImageView>
+            <Text fill="#ff9900" strokeType="OUTSIDE" strokeWidth="0.0" text="Best Score - ">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Text>
+            <Label text="243" textFill="#ff9900">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <CheckBox fx:id="mouseMovementCheckBox" layoutX="39.0" layoutY="662.0" mnemonicParsing="false" text="Add mouse movement feature" textFill="#ff9900">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="fullscreenCheckBox" layoutX="39.0" layoutY="630.0" mnemonicParsing="false" text="Full Screen Mode" textFill="#ff9900">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>
